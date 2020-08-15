@@ -1,0 +1,63 @@
+# Welcome to bundle install Theme!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+theme_version: 1.0.0
+
+# Site settings
+title: My Blog
+logo: # Logo image URL
+description: Fullstack Digital Marketer - 0969066500
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://vubangbee.github.io/" # The base hostname & protocol for your site
+twitter: https://twitter.com/vubangbee
+facebook: https://www.facebook.com/vubangbee
+instagram: https://www.instagram.com/vubangbee
+youtube: https://www.youtube.com/channel/UCqWI392TiKjfoslrqzaWqSg
+skype: skype:live:vubang18
+
+markdown: kramdown
+permalink: pretty
+paginate: 11
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll/tagging
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+# Authors
+authors:
+  vubangbee:
+    name: Vu Bang Nguyen
+    bio: Fullstack Digital Marketing - 0969066500
+    gravatar: https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.0-9/101395254_2960607140702925_6178511038027178167_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=BorwYWKA_GgAX9C-IT5&_nc_ht=scontent.fsgn5-5.fna&oh=2815dd9d2aba0c304b84fcf3b28ab4b8&oe=5F54763A
+    email: vubangbee@gmail.com
+    facebook: https://www.facebook.com/vubangbee
+    youtube: https://www.youtube.com/channel/UCqWI392TiKjfoslrqzaWqSg
+    website: https://github.com/vubangbee
+    github: https://github.com/vubangbee
+    twitter: https://twitter.com/vubangbee

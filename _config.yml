@@ -12,7 +12,7 @@ title: My Blog
 logo: # Logo image URL
 description: Fullstack Digital Marketer - 0969066500
 baseurl: "/blog" # The subpath of your site, e.g. /blog
-url: "https://vubangbee.github.io/" # The base hostname & protocol for your site
+url: "https://vubangbee.github.io/blog" # The base hostname & protocol for your site
 twitter: https://twitter.com/vubangbee
 facebook: https://www.facebook.com/vubangbee
 instagram: https://www.instagram.com/vubangbee
